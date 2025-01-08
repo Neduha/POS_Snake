@@ -1,0 +1,4 @@
+/home/mydliar6/snake/build/CMakeFiles/client.dir
+/home/mydliar6/snake/build/CMakeFiles/server.dir
+/home/mydliar6/snake/build/CMakeFiles/edit_cache.dir
+/home/mydliar6/snake/build/CMakeFiles/rebuild_cache.dir

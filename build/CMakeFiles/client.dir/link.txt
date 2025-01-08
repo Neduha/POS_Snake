@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/client.dir/src/client.c.o CMakeFiles/client.dir/src/snake_game.c.o CMakeFiles/client.dir/src/pipe.c.o -o client  -lpthread -lncurses 
