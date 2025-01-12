@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/mydliar6/snake/include
 
-C_FLAGS = -std=gnu11
+C_FLAGS = -g -fsanitize=address -std=gnu11
 

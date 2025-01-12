@@ -1,35 +1,50 @@
 #ifndef SNAKE_GAME_H
 #define SNAKE_GAME_H
 
+#define MAX_SNAKE_LENGTH 200
+#define MAX_OBSTACLES 200
+
 typedef struct {
     int x, y;
 } Position;
 
 typedef struct {
-    Position body[100]; 
+    Position body[MAX_SNAKE_LENGTH];
     int length;
 } Snake;
 
 typedef struct {
-    int width, height;
+    int width;
+    int height;
     int score;
     Position fruit;
     Snake snake;
     int direction;
+    int time_remaining;
+    int obstacles_flag;
+    int obstacles_count;
+    Position obstacles[MAX_OBSTACLES];
+    int game_mode;
+    int paused;
+    int client_active_timer;
+    int dead;
 } GameState;
 
 typedef struct {
-    int width, height;
+    int width;
+    int height;
     int score;
     Position fruit;
+    Position snake_body[MAX_SNAKE_LENGTH];
     int snake_length;
-    Position snake_body[100]; 
+    int time_remaining;
+    int obstacles_flag;
+    int obstacles_count;
+    Position obstacles[MAX_OBSTACLES];
+    int game_mode;
+    int paused;
+    int dead;
 } GameStateData;
-
-#define UP 0
-#define RIGHT 1
-#define DOWN 2
-#define LEFT 3
 
 void init_game(GameState *state, int height);
 void render_game_from_data(GameStateData *data);

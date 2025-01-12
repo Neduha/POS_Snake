@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mydliar6/snake/src/client.c" "CMakeFiles/client.dir/src/client.c.o" "gcc" "CMakeFiles/client.dir/src/client.c.o.d"
+  "/home/mydliar6/snake/src/menu.c" "CMakeFiles/client.dir/src/menu.c.o" "gcc" "CMakeFiles/client.dir/src/menu.c.o.d"
   "/home/mydliar6/snake/src/pipe.c" "CMakeFiles/client.dir/src/pipe.c.o" "gcc" "CMakeFiles/client.dir/src/pipe.c.o.d"
   "/home/mydliar6/snake/src/snake_game.c" "CMakeFiles/client.dir/src/snake_game.c.o" "gcc" "CMakeFiles/client.dir/src/snake_game.c.o.d"
   )

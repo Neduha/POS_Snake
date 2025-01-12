@@ -36,7 +36,7 @@ void pipe_flush(const char *path) {
 }
 
 
-int pipe_open_read(const char *path) { // ADDED
+int pipe_open_read(const char *path) { 
     int fd = open(path, O_RDONLY);
     if (fd == -1) {
         perror("Failed to open pipe for reading");
@@ -47,7 +47,7 @@ int pipe_open_read(const char *path) { // ADDED
 
 
 
-int pipe_open_write(const char *path) { // ADDED
+int pipe_open_write(const char *path) { 
     int fd = open(path, O_WRONLY);
     if (fd == -1) {
         perror("Failed to open pipe for writing");

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/client.dir/src/client.c.o"
   "CMakeFiles/client.dir/src/client.c.o.d"
+  "CMakeFiles/client.dir/src/menu.c.o"
+  "CMakeFiles/client.dir/src/menu.c.o.d"
   "CMakeFiles/client.dir/src/pipe.c.o"
   "CMakeFiles/client.dir/src/pipe.c.o.d"
   "CMakeFiles/client.dir/src/snake_game.c.o"

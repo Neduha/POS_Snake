@@ -166,6 +166,30 @@ src/client.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/client.c.s
 .PHONY : src/client.c.s
 
+src/menu.o: src/menu.c.o
+.PHONY : src/menu.o
+
+# target to build an object file
+src/menu.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/menu.c.o
+.PHONY : src/menu.c.o
+
+src/menu.i: src/menu.c.i
+.PHONY : src/menu.i
+
+# target to preprocess a source file
+src/menu.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/menu.c.i
+.PHONY : src/menu.c.i
+
+src/menu.s: src/menu.c.s
+.PHONY : src/menu.s
+
+# target to generate assembly for a file
+src/menu.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/src/menu.c.s
+.PHONY : src/menu.c.s
+
 src/pipe.o: src/pipe.c.o
 .PHONY : src/pipe.o
 
@@ -257,6 +281,9 @@ help:
 	@echo "... src/client.o"
 	@echo "... src/client.i"
 	@echo "... src/client.s"
+	@echo "... src/menu.o"
+	@echo "... src/menu.i"
+	@echo "... src/menu.s"
 	@echo "... src/pipe.o"
 	@echo "... src/pipe.i"
 	@echo "... src/pipe.s"

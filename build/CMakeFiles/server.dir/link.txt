@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/server.dir/src/server.c.o CMakeFiles/server.dir/src/snake_game.c.o CMakeFiles/server.dir/src/pipe.c.o -o server  -lpthread -lncurses 
+/usr/bin/cc -g -fsanitize=address  -fsanitize=address CMakeFiles/server.dir/src/server.c.o CMakeFiles/server.dir/src/snake_game.c.o CMakeFiles/server.dir/src/pipe.c.o -o server  -lpthread -lncurses 
